@@ -1,0 +1,14 @@
+<div>{{subject}}</div><br/>
+<div>The Drives Build System has noted the following change on branch {{branch}}</div><br/>
+<div style="color: maroon;">Date: {{epoch}}</div><br/>
+<div><u>Changed files:</u></div><br/>
+<div>{% for name in names %}</div>
+<div style ="color: maroon">{{name}}</div>
+{% endfor %}<br/>
+<div> <u>Provided Comments:</u></div>
+<div> {{comments}}</div><br/>
+<div style="color: red;">If you did not make the change please contact Devops team as this might be a security breach.</div><br/>
+{% if no_story_number %}
+<div>The check in comments are required to contain a specific versionOne Story identification.
+    <b>The Drivers Build System tool could not identify the relevant work identification with the changeset.</b></div>
+{% endif %}

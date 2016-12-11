@@ -1,0 +1,72 @@
+{
+    "ccgit":[
+		{
+		    "branch" : "integration01",
+		    "dpath"  : "M:\\svcd_cctest01_integration01\\cctest01",
+		    "spath"  : "C:\\ClearCase\\snapshots\\svcs_cctest01_integration01\\cctest01"
+		},
+		{
+		    "branch" : "powerflex_hpc_int_01",
+		    "dpath"  : "M:\\svcd_powerflex_hpc_int_01\\PowerFlex_HPC",
+		    "spath"  : "C:\\ClearCase\\snapshots\\svcs_powerflex_hpc_int_01\\PowerFlex_HPC"
+		}
+    ],
+    "mail":{
+      "enable"               : true,
+      "notifications_path"   : "notifications",
+      "server"               : "ranasmtp01.ra.rockwell.com",
+      "sender"               : "BuildSystem",
+      "receiver"             : "{user}@ra.rockwell.com",
+      "subject"              : "Source Code Analysis",
+      "template_path"        : "mail.html",
+      "story_number_check"   : "B(-|)[0-9]{6}",
+      "timeout_out"          :  3600
+    },
+    "logging": {
+         "version"                 : 1,
+         "disable_existing_loggers": false,
+         "formatters": {
+              "simple": {
+                   "format": "%(asctime)s | %(name)-10s | %(levelname)-8s |  %(module)-16s | %(funcName)-21s | %(message)s"
+              }
+         },
+	 "filters": {
+	      "omit_utility" : { 
+	          "()"    : "utility.OmitFilter",
+	          "name"  : "utility"
+	       },
+	      "omit_history_debug" : { 
+	          "()"      : "utility.OmitFilter",
+	          "name"    : "cleartool.history",
+	          "function": "request_events",
+	          "level"   : "DEBUG"
+	       }
+	 },
+         "handlers": {
+              "console": {
+                   "class"      :     "logging.StreamHandler",
+                   "level"      :     "DEBUG",
+                   "formatter"  : "simple",
+                   "stream"     :    "ext://sys.stdout"
+              },
+              "file": {
+                   "class"       :     "logging.handlers.RotatingFileHandler",
+                   "level"       :     "DEBUG",
+                   "formatter"   : "simple",
+                   "filename"    :  "log/ccgitbridge.log",
+                   "maxBytes"    :  10000000,
+                   "backupCount" : 3
+              }
+         },
+	 "loggers":{
+              "": {
+                  "handlers": [
+	              "console",
+	              "file"
+	          ],
+		  "level":"DEBUG",
+		  "propagate": true
+              }
+	  }
+    }
+}

@@ -1,0 +1,340 @@
+2016-11-14 20:31:05,953 | integration01 | DEBUG    |  cc_git_bridge    | run                   | START LOG------------------------------------------------------------------------------------------------------------------------------
+2016-11-14 20:31:08,171 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -BEGIN-CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:08,176 | integration01 | INFO     |  cc_git_bridge    | _log_change           | user:   vbhatti    
+2016-11-14 20:31:08,188 | integration01 | INFO     |  cc_git_bridge    | _log_change           | time:   2016-11-11T15:44:31-05:00 
+2016-11-14 20:31:08,194 | integration01 | INFO     |  cc_git_bridge    | _log_change           | branch: integration01    
+2016-11-14 20:31:08,197 | integration01 | INFO     |  cc_git_bridge    | _log_change           |      change includes following file versions
+2016-11-14 20:31:08,206 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     9    \abc.txt
+2016-11-14 20:31:08,219 | integration01 | INFO     |  cc_git_bridge    | _log_change           | {
+  "comments": "", 
+  "names": [
+    "    9    \\abc.txt"
+  ], 
+  "user": "vbhatti", 
+  "branch": "integration01", 
+  "time": "2016-11-11T15:44:31-05:00"
+}
+2016-11-14 20:31:08,259 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -END---CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:09,418 | integration01 | DEBUG    |  cc_git_bridge    | _update_snapshot      | time to update: 1.15399980545
+2016-11-14 20:31:10,065 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -BEGIN-CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:10,069 | integration01 | INFO     |  cc_git_bridge    | _log_change           | user:   vbhatti    
+2016-11-14 20:31:10,076 | integration01 | INFO     |  cc_git_bridge    | _log_change           | time:   2016-11-11T15:59:30-05:00 
+2016-11-14 20:31:10,081 | integration01 | INFO     |  cc_git_bridge    | _log_change           | branch: integration01    
+2016-11-14 20:31:10,088 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     Source testing
+2016-11-14 20:31:10,092 | integration01 | INFO     |  cc_git_bridge    | _log_change           |      change includes following file versions
+2016-11-14 20:31:10,096 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     89   \newsource.c
+2016-11-14 20:31:10,111 | integration01 | INFO     |  cc_git_bridge    | _log_change           | {
+  "comments": "Source testing\r\n", 
+  "names": [
+    "    89   \\newsource.c"
+  ], 
+  "user": "vbhatti", 
+  "branch": "integration01", 
+  "time": "2016-11-11T15:59:30-05:00"
+}
+2016-11-14 20:31:10,144 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -END---CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:11,181 | integration01 | DEBUG    |  cc_git_bridge    | _update_snapshot      | time to update: 1.03199982643
+2016-11-14 20:31:11,424 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -BEGIN-CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:11,427 | integration01 | INFO     |  cc_git_bridge    | _log_change           | user:   vbhatti    
+2016-11-14 20:31:11,438 | integration01 | INFO     |  cc_git_bridge    | _log_change           | time:   2016-11-11T16:25:54-05:00 
+2016-11-14 20:31:11,443 | integration01 | INFO     |  cc_git_bridge    | _log_change           | branch: integration01    
+2016-11-14 20:31:11,447 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     B-12345
+2016-11-14 20:31:11,454 | integration01 | INFO     |  cc_git_bridge    | _log_change           |      change includes following file versions
+2016-11-14 20:31:11,460 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     90   \newsource.c
+2016-11-14 20:31:11,470 | integration01 | INFO     |  cc_git_bridge    | _log_change           | {
+  "comments": "B-12345\r\n", 
+  "names": [
+    "    90   \\newsource.c"
+  ], 
+  "user": "vbhatti", 
+  "branch": "integration01", 
+  "time": "2016-11-11T16:25:54-05:00"
+}
+2016-11-14 20:31:11,506 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -END---CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:12,336 | integration01 | DEBUG    |  cc_git_bridge    | _update_snapshot      | time to update: 0.823999881744
+2016-11-14 20:31:12,588 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -BEGIN-CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:12,594 | integration01 | INFO     |  cc_git_bridge    | _log_change           | user:   vbhatti    
+2016-11-14 20:31:12,605 | integration01 | INFO     |  cc_git_bridge    | _log_change           | time:   2016-11-11T17:13:34-05:00 
+2016-11-14 20:31:12,609 | integration01 | INFO     |  cc_git_bridge    | _log_change           | branch: integration01    
+2016-11-14 20:31:12,614 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     Testing!
+2016-11-14 20:31:12,618 | integration01 | INFO     |  cc_git_bridge    | _log_change           |      change includes following file versions
+2016-11-14 20:31:12,621 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     56   \NewFile.txt
+2016-11-14 20:31:12,632 | integration01 | INFO     |  cc_git_bridge    | _log_change           | {
+  "comments": "Testing!\r\n", 
+  "names": [
+    "    56   \\NewFile.txt"
+  ], 
+  "user": "vbhatti", 
+  "branch": "integration01", 
+  "time": "2016-11-11T17:13:34-05:00"
+}
+2016-11-14 20:31:12,670 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -END---CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:13,677 | integration01 | DEBUG    |  cc_git_bridge    | _update_snapshot      | time to update: 1.00300002098
+2016-11-14 20:31:13,861 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -BEGIN-CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:13,865 | integration01 | INFO     |  cc_git_bridge    | _log_change           | user:   vbhatti    
+2016-11-14 20:31:13,872 | integration01 | INFO     |  cc_git_bridge    | _log_change           | time:   2016-11-11T17:16:49-05:00 
+2016-11-14 20:31:13,877 | integration01 | INFO     |  cc_git_bridge    | _log_change           | branch: integration01    
+2016-11-14 20:31:13,881 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     Test 2.0
+2016-11-14 20:31:13,888 | integration01 | INFO     |  cc_git_bridge    | _log_change           |      change includes following file versions
+2016-11-14 20:31:13,894 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     91   \newsource.c
+2016-11-14 20:31:13,907 | integration01 | INFO     |  cc_git_bridge    | _log_change           | {
+  "comments": "Test 2.0\r\n", 
+  "names": [
+    "    91   \\newsource.c"
+  ], 
+  "user": "vbhatti", 
+  "branch": "integration01", 
+  "time": "2016-11-11T17:16:49-05:00"
+}
+2016-11-14 20:31:13,941 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -END---CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:14,950 | integration01 | DEBUG    |  cc_git_bridge    | _update_snapshot      | time to update: 1.00300002098
+2016-11-14 20:31:15,177 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -BEGIN-CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:15,181 | integration01 | INFO     |  cc_git_bridge    | _log_change           | user:   vbhatti    
+2016-11-14 20:31:15,194 | integration01 | INFO     |  cc_git_bridge    | _log_change           | time:   2016-11-14T10:25:24-05:00 
+2016-11-14 20:31:15,198 | integration01 | INFO     |  cc_git_bridge    | _log_change           | branch: integration01    
+2016-11-14 20:31:15,204 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     samp
+2016-11-14 20:31:15,210 | integration01 | INFO     |  cc_git_bridge    | _log_change           |      change includes following file versions
+2016-11-14 20:31:15,214 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     10   \abc.txt
+2016-11-14 20:31:15,224 | integration01 | INFO     |  cc_git_bridge    | _log_change           | {
+  "comments": "samp\r\n", 
+  "names": [
+    "    10   \\abc.txt"
+  ], 
+  "user": "vbhatti", 
+  "branch": "integration01", 
+  "time": "2016-11-14T10:25:24-05:00"
+}
+2016-11-14 20:31:15,260 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -END---CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:16,311 | integration01 | DEBUG    |  cc_git_bridge    | _update_snapshot      | time to update: 1.04300022125
+2016-11-14 20:31:16,497 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -BEGIN-CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:16,502 | integration01 | INFO     |  cc_git_bridge    | _log_change           | user:   pbobba     
+2016-11-14 20:31:16,509 | integration01 | INFO     |  cc_git_bridge    | _log_change           | time:   2016-11-14T10:41:01-05:00 
+2016-11-14 20:31:16,513 | integration01 | INFO     |  cc_git_bridge    | _log_change           | branch: integration01    
+2016-11-14 20:31:16,517 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     abhi
+2016-11-14 20:31:16,520 | integration01 | INFO     |  cc_git_bridge    | _log_change           |      change includes following file versions
+2016-11-14 20:31:16,525 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     57   \NewFile.txt
+2016-11-14 20:31:16,539 | integration01 | INFO     |  cc_git_bridge    | _log_change           | {
+  "comments": "abhi\r\n", 
+  "names": [
+    "    57   \\NewFile.txt"
+  ], 
+  "user": "pbobba", 
+  "branch": "integration01", 
+  "time": "2016-11-14T10:41:01-05:00"
+}
+2016-11-14 20:31:16,573 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -END---CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:17,566 | integration01 | DEBUG    |  cc_git_bridge    | _update_snapshot      | time to update: 0.987999916077
+2016-11-14 20:31:17,842 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -BEGIN-CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:17,846 | integration01 | INFO     |  cc_git_bridge    | _log_change           | user:   vbhatti    
+2016-11-14 20:31:17,858 | integration01 | INFO     |  cc_git_bridge    | _log_change           | time:   2016-11-14T12:33:18-05:00 
+2016-11-14 20:31:17,864 | integration01 | INFO     |  cc_git_bridge    | _log_change           | branch: integration01    
+2016-11-14 20:31:17,868 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     Test
+2016-11-14 20:31:17,871 | integration01 | INFO     |  cc_git_bridge    | _log_change           |      change includes following file versions
+2016-11-14 20:31:17,875 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     11   \abc.txt
+2016-11-14 20:31:17,888 | integration01 | INFO     |  cc_git_bridge    | _log_change           | {
+  "comments": "Test\r\n", 
+  "names": [
+    "    11   \\abc.txt"
+  ], 
+  "user": "vbhatti", 
+  "branch": "integration01", 
+  "time": "2016-11-14T12:33:18-05:00"
+}
+2016-11-14 20:31:17,924 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -END---CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:18,778 | integration01 | DEBUG    |  cc_git_bridge    | _update_snapshot      | time to update: 0.84900021553
+2016-11-14 20:31:18,959 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -BEGIN-CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:18,963 | integration01 | INFO     |  cc_git_bridge    | _log_change           | user:   vbhatti    
+2016-11-14 20:31:18,970 | integration01 | INFO     |  cc_git_bridge    | _log_change           | time:   2016-11-14T14:36:24-05:00 
+2016-11-14 20:31:18,973 | integration01 | INFO     |  cc_git_bridge    | _log_change           | branch: integration01    
+2016-11-14 20:31:18,977 | integration01 | INFO     |  cc_git_bridge    | _log_change           |      change includes following file versions
+2016-11-14 20:31:18,982 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     12   \abc.txt
+2016-11-14 20:31:18,996 | integration01 | INFO     |  cc_git_bridge    | _log_change           | {
+  "comments": "", 
+  "names": [
+    "    12   \\abc.txt"
+  ], 
+  "user": "vbhatti", 
+  "branch": "integration01", 
+  "time": "2016-11-14T14:36:24-05:00"
+}
+2016-11-14 20:31:19,032 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -END---CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:19,911 | integration01 | DEBUG    |  cc_git_bridge    | _update_snapshot      | time to update: 0.87299990654
+2016-11-14 20:31:20,092 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -BEGIN-CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:20,098 | integration01 | INFO     |  cc_git_bridge    | _log_change           | user:   vbhatti    
+2016-11-14 20:31:20,107 | integration01 | INFO     |  cc_git_bridge    | _log_change           | time:   2016-11-14T14:40:34-05:00 
+2016-11-14 20:31:20,111 | integration01 | INFO     |  cc_git_bridge    | _log_change           | branch: integration01    
+2016-11-14 20:31:20,115 | integration01 | INFO     |  cc_git_bridge    | _log_change           |      change includes following file versions
+2016-11-14 20:31:20,118 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     58   \NewFile.txt
+2016-11-14 20:31:20,128 | integration01 | INFO     |  cc_git_bridge    | _log_change           | {
+  "comments": "", 
+  "names": [
+    "    58   \\NewFile.txt"
+  ], 
+  "user": "vbhatti", 
+  "branch": "integration01", 
+  "time": "2016-11-14T14:40:34-05:00"
+}
+2016-11-14 20:31:20,167 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -END---CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:21,190 | integration01 | DEBUG    |  cc_git_bridge    | _update_snapshot      | time to update: 1.01999998093
+2016-11-14 20:31:21,395 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -BEGIN-CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:21,400 | integration01 | INFO     |  cc_git_bridge    | _log_change           | user:   vbhatti    
+2016-11-14 20:31:21,407 | integration01 | INFO     |  cc_git_bridge    | _log_change           | time:   2016-11-14T14:53:26-05:00 
+2016-11-14 20:31:21,413 | integration01 | INFO     |  cc_git_bridge    | _log_change           | branch: integration01    
+2016-11-14 20:31:21,415 | integration01 | INFO     |  cc_git_bridge    | _log_change           |      change includes following file versions
+2016-11-14 20:31:21,420 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     13   \abc.txt
+2016-11-14 20:31:21,430 | integration01 | INFO     |  cc_git_bridge    | _log_change           | {
+  "comments": "", 
+  "names": [
+    "    13   \\abc.txt"
+  ], 
+  "user": "vbhatti", 
+  "branch": "integration01", 
+  "time": "2016-11-14T14:53:26-05:00"
+}
+2016-11-14 20:31:21,470 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -END---CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:22,359 | integration01 | DEBUG    |  cc_git_bridge    | _update_snapshot      | time to update: 0.885999917984
+2016-11-14 20:31:22,556 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -BEGIN-CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:22,561 | integration01 | INFO     |  cc_git_bridge    | _log_change           | user:   vbhatti    
+2016-11-14 20:31:22,569 | integration01 | INFO     |  cc_git_bridge    | _log_change           | time:   2016-11-14T14:57:33-05:00 
+2016-11-14 20:31:22,572 | integration01 | INFO     |  cc_git_bridge    | _log_change           | branch: integration01    
+2016-11-14 20:31:22,575 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     Cofee test!!
+2016-11-14 20:31:22,579 | integration01 | INFO     |  cc_git_bridge    | _log_change           |      change includes following file versions
+2016-11-14 20:31:22,586 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     14   \abc.txt
+2016-11-14 20:31:22,598 | integration01 | INFO     |  cc_git_bridge    | _log_change           | {
+  "comments": "Cofee test!!\r\n", 
+  "names": [
+    "    14   \\abc.txt"
+  ], 
+  "user": "vbhatti", 
+  "branch": "integration01", 
+  "time": "2016-11-14T14:57:33-05:00"
+}
+2016-11-14 20:31:22,631 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -END---CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:23,516 | integration01 | DEBUG    |  cc_git_bridge    | _update_snapshot      | time to update: 0.878999948502
+2016-11-14 20:31:23,795 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -BEGIN-CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:23,799 | integration01 | INFO     |  cc_git_bridge    | _log_change           | user:   vbhatti    
+2016-11-14 20:31:23,806 | integration01 | INFO     |  cc_git_bridge    | _log_change           | time:   2016-11-14T15:01:06-05:00 
+2016-11-14 20:31:23,809 | integration01 | INFO     |  cc_git_bridge    | _log_change           | branch: integration01    
+2016-11-14 20:31:23,815 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     Testing TimeZone.
+2016-11-14 20:31:23,821 | integration01 | INFO     |  cc_git_bridge    | _log_change           |      change includes following file versions
+2016-11-14 20:31:23,823 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     15   \abc.txt
+2016-11-14 20:31:23,841 | integration01 | INFO     |  cc_git_bridge    | _log_change           | {
+  "comments": "Testing TimeZone.\r\n", 
+  "names": [
+    "    15   \\abc.txt"
+  ], 
+  "user": "vbhatti", 
+  "branch": "integration01", 
+  "time": "2016-11-14T15:01:06-05:00"
+}
+2016-11-14 20:31:23,878 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -END---CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:24,776 | integration01 | DEBUG    |  cc_git_bridge    | _update_snapshot      | time to update: 0.890000104904
+2016-11-14 20:31:24,966 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -BEGIN-CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:24,970 | integration01 | INFO     |  cc_git_bridge    | _log_change           | user:   vbhatti    
+2016-11-14 20:31:24,977 | integration01 | INFO     |  cc_git_bridge    | _log_change           | time:   2016-11-14T15:22:18-05:00 
+2016-11-14 20:31:24,986 | integration01 | INFO     |  cc_git_bridge    | _log_change           | branch: integration01    
+2016-11-14 20:31:24,992 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     NFL
+2016-11-14 20:31:24,996 | integration01 | INFO     |  cc_git_bridge    | _log_change           |      change includes following file versions
+2016-11-14 20:31:25,000 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     16   \abc.txt
+2016-11-14 20:31:25,013 | integration01 | INFO     |  cc_git_bridge    | _log_change           | {
+  "comments": "NFL\r\n", 
+  "names": [
+    "    16   \\abc.txt"
+  ], 
+  "user": "vbhatti", 
+  "branch": "integration01", 
+  "time": "2016-11-14T15:22:18-05:00"
+}
+2016-11-14 20:31:25,049 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -END---CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:26,006 | integration01 | DEBUG    |  cc_git_bridge    | _update_snapshot      | time to update: 0.950000047684
+2016-11-14 20:31:26,220 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -BEGIN-CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:26,224 | integration01 | INFO     |  cc_git_bridge    | _log_change           | user:   vbhatti    
+2016-11-14 20:31:26,236 | integration01 | INFO     |  cc_git_bridge    | _log_change           | time:   2016-11-14T21:14:06-05:00 
+2016-11-14 20:31:26,240 | integration01 | INFO     |  cc_git_bridge    | _log_change           | branch: integration01    
+2016-11-14 20:31:26,246 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     Testing!! LDAP
+2016-11-14 20:31:26,253 | integration01 | INFO     |  cc_git_bridge    | _log_change           |      change includes following file versions
+2016-11-14 20:31:26,256 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     17   \abc.txt
+2016-11-14 20:31:26,266 | integration01 | INFO     |  cc_git_bridge    | _log_change           | {
+  "comments": "Testing!! LDAP\r\n", 
+  "names": [
+    "    17   \\abc.txt"
+  ], 
+  "user": "vbhatti", 
+  "branch": "integration01", 
+  "time": "2016-11-14T21:14:06-05:00"
+}
+2016-11-14 20:31:26,301 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -END---CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:27,157 | integration01 | DEBUG    |  cc_git_bridge    | _update_snapshot      | time to update: 0.849999904633
+2016-11-14 20:31:57,615 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -BEGIN-CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:57,617 | integration01 | INFO     |  cc_git_bridge    | _log_change           | user:   vbhatti    
+2016-11-14 20:31:57,618 | integration01 | INFO     |  cc_git_bridge    | _log_change           | time:   2016-11-14T21:22:40-05:00 
+2016-11-14 20:31:57,618 | integration01 | INFO     |  cc_git_bridge    | _log_change           | branch: integration01    
+2016-11-14 20:31:57,619 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     Testing!!! 2
+2016-11-14 20:31:57,619 | integration01 | INFO     |  cc_git_bridge    | _log_change           |      change includes following file versions
+2016-11-14 20:31:57,621 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     59   \NewFile.txt
+2016-11-14 20:31:57,624 | integration01 | INFO     |  cc_git_bridge    | _log_change           | {
+  "comments": "Testing!!! 2\r\n", 
+  "names": [
+    "    59   \\NewFile.txt"
+  ], 
+  "user": "vbhatti", 
+  "branch": "integration01", 
+  "time": "2016-11-14T21:22:40-05:00"
+}
+2016-11-14 20:31:57,625 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -END---CHANGE-------------------------------------------------------------------
+2016-11-14 20:31:58,526 | integration01 | DEBUG    |  cc_git_bridge    | _update_snapshot      | time to update: 0.901000022888
+2016-11-14 20:33:29,358 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -BEGIN-CHANGE-------------------------------------------------------------------
+2016-11-14 20:33:29,359 | integration01 | INFO     |  cc_git_bridge    | _log_change           | user:   vbhatti    
+2016-11-14 20:33:29,365 | integration01 | INFO     |  cc_git_bridge    | _log_change           | time:   2016-11-14T21:32:44-05:00 
+2016-11-14 20:33:29,368 | integration01 | INFO     |  cc_git_bridge    | _log_change           | branch: integration01    
+2016-11-14 20:33:29,371 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     SaMPLE
+2016-11-14 20:33:29,372 | integration01 | INFO     |  cc_git_bridge    | _log_change           |      change includes following file versions
+2016-11-14 20:33:29,375 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     60   \NewFile.txt
+2016-11-14 20:33:29,387 | integration01 | INFO     |  cc_git_bridge    | _log_change           | {
+  "comments": "SaMPLE\r\n", 
+  "names": [
+    "    60   \\NewFile.txt"
+  ], 
+  "user": "vbhatti", 
+  "branch": "integration01", 
+  "time": "2016-11-14T21:32:44-05:00"
+}
+2016-11-14 20:33:29,408 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -END---CHANGE-------------------------------------------------------------------
+2016-11-14 20:33:30,318 | integration01 | DEBUG    |  cc_git_bridge    | _update_snapshot      | time to update: 0.904000043869
+2016-11-14 20:51:38,542 | integration01 | DEBUG    |  cc_git_bridge    | run                   | START LOG------------------------------------------------------------------------------------------------------------------------------
+2016-11-14 20:52:09,230 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -BEGIN-CHANGE-------------------------------------------------------------------
+2016-11-14 20:52:09,230 | integration01 | INFO     |  cc_git_bridge    | _log_change           | user:   vbhatti    
+2016-11-14 20:52:09,232 | integration01 | INFO     |  cc_git_bridge    | _log_change           | time:   2016-11-14T21:32:44-05:00 
+2016-11-14 20:52:09,232 | integration01 | INFO     |  cc_git_bridge    | _log_change           | branch: integration01    
+2016-11-14 20:52:09,233 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     SaMPLE
+2016-11-14 20:52:09,233 | integration01 | INFO     |  cc_git_bridge    | _log_change           |      change includes following file versions
+2016-11-14 20:52:09,233 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     60   \NewFile.txt
+2016-11-14 20:52:09,234 | integration01 | INFO     |  cc_git_bridge    | _log_change           | {
+  "comments": "SaMPLE\r\n", 
+  "names": [
+    "    60   \\NewFile.txt"
+  ], 
+  "user": "vbhatti", 
+  "branch": "integration01", 
+  "time": "2016-11-14T20:32:44-06:00"
+}
+2016-11-14 20:52:09,236 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -END---CHANGE-------------------------------------------------------------------
+2016-11-14 20:52:10,013 | integration01 | DEBUG    |  cc_git_bridge    | _update_snapshot      | time to update: 0.77799987793
+2016-11-14 20:53:55,269 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -BEGIN-CHANGE-------------------------------------------------------------------
+2016-11-14 20:53:55,269 | integration01 | INFO     |  cc_git_bridge    | _log_change           | user:   vbhatti    
+2016-11-14 20:53:55,269 | integration01 | INFO     |  cc_git_bridge    | _log_change           | time:   2016-11-14T21:52:14-05:00 
+2016-11-14 20:53:55,270 | integration01 | INFO     |  cc_git_bridge    | _log_change           | branch: integration01    
+2016-11-14 20:53:55,270 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     Check
+2016-11-14 20:53:55,270 | integration01 | INFO     |  cc_git_bridge    | _log_change           |      change includes following file versions
+2016-11-14 20:53:55,272 | integration01 | INFO     |  cc_git_bridge    | _log_change           |     61   \NewFile.txt
+2016-11-14 20:53:55,273 | integration01 | INFO     |  cc_git_bridge    | _log_change           | {
+  "comments": "Check\r\n", 
+  "names": [
+    "    61   \\NewFile.txt"
+  ], 
+  "user": "vbhatti", 
+  "branch": "integration01", 
+  "time": "2016-11-14T20:52:14-06:00"
+}
+2016-11-14 20:53:55,273 | integration01 | INFO     |  cc_git_bridge    | _log_change           | -END---CHANGE-------------------------------------------------------------------
+2016-11-14 20:53:56,200 | integration01 | DEBUG    |  cc_git_bridge    | _update_snapshot      | time to update: 0.927000045776
