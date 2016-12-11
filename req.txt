@@ -1,4 +1,0 @@
-
-This is the requirements file.
-ccgit repository.
-
